@@ -108,7 +108,7 @@ int main() {
     printf("Área : %d\n", (area > area1) ? 1 : 0);
     printf("PIB : %d\n", (pib > pib1) ? 1 : 0);
     printf("Pontos Turísticos : %d\n", (num_pontos_turisticos > num_pontos_turisticos1) ? 1 : 0);
-    printf("Densidade Populacional : %d\n", (densidade_populacional1 > densidade_populacional2) ? 1 : 0);
+    printf("Densidade Populacional : %d\n", (densidade_populacional1 < densidade_populacional2) ? 1 : 0);
     printf("PIB per Capita : %d\n", (PIB_per_capita > PIB_per_capita1) ? 1 : 0);
     printf("Super Poder : %d\n", (super_poder > super_poder1) ? 1 : 0);
 
