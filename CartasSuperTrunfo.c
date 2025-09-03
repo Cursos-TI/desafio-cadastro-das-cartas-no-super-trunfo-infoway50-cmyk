@@ -43,12 +43,13 @@ int main() {
     scanf(" %f", &pib);
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf(" %d", &num_pontos_turisticos);
+    getchar(); // <-- Adicione esta linha para limpar o buffer
 
     printf("~~~~Dados da carta 02~~~~\n");
 
     printf("Digite o estado da cidade: \n");
     fgets(estado1, 50, stdin);
-	printf("Digite o nome da cidade: \n");
+    printf("Digite o nome da cidade: \n");
     fgets(nome_cidade1, 100, stdin);
     printf("Digite a população da cidade: \n");
     scanf(" %lu", &populacao1);
@@ -59,6 +60,7 @@ int main() {
     scanf(" %f", &pib1);
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf(" %d", &num_pontos_turisticos1);
+    getchar();
 
  /* Cálculo da Densidade Populacional */
     densidade_populacional1 = (float)populacao / area;
@@ -92,10 +94,8 @@ int main() {
     printf("PIB per Capita: %.2f reais\n", PIB_per_capita);
     printf("Super Poder: %.1f\n", super_poder);
 
-    printf("\n");
     // Exibição dos Dados da carta 02
     printf("~~~~Dados da carta 02~~~~\n");
-	printf("\n");
 	
     printf("Nome da Cidade: %s\n", nome_cidade1);
 	printf("Código da é: %d.\n", codigo_estado1);
