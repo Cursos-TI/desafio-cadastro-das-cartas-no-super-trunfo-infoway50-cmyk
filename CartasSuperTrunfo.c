@@ -48,7 +48,6 @@ int main() {
 
     printf("Digite o estado da cidade: \n");
     fgets(estado1, 50, stdin);
-    
 	printf("Digite o nome da cidade: \n");
     fgets(nome_cidade1, 100, stdin);
     printf("Digite a população da cidade: \n");
